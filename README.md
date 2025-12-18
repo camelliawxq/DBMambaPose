@@ -1,4 +1,4 @@
-# [2025] DBMambaPose: Decoupled Spatial-Temporal Bidirectional State Space Model for Efficient 3D Human Pose Estimation
+# [PR2025] DBMambaPose: Decoupled Spatial-Temporal Bidirectional State Space Model for Efficient 3D Human Pose Estimation
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
 This is the official PyTorch implementation of the paper "DBMambaPose: Decoupled Spatial-Temporal Bidirectional State Space Model for Efficient 3D Human Pose Estimation" (2025).
@@ -50,10 +50,10 @@ where config files are located at `configs/mpi`. Like Human3.6M, weight and bias
 ## Evaluation
 | Method         | # frames | # Params | # MACs | H3.6M weights |
 |----------------|----------|----------|--------|---------------|
-| DBMambaPose-XS | 243      | 1.4M     | 4.2G   |    [download](https://drive.google.com/file/d/1IbHVyMShM2pCNFQ-8xJb8CKAzarrx7Cy/view?usp=sharing)   |
-| DBMambaPose-S  | 243      | 4.2M     | 12.4G  |    [download](https://drive.google.com/file/d/1AMxrkWEZo2Rc2B9yhUK9HWk0wHuQkdfj/view?usp=sharing)   |
-| DBMambaPose-B  | 243      | 8.7M     | 27.4G  |    [download](https://drive.google.com/file/d/1z_CMaN10e-FIgb-UeqB7q2gqLQUAsHkO/view?usp=sharing)   |
-| DBMambaPose-L  | 243      | 12.2M    | 38.3G  |    [download](https://drive.google.com/file/d/1t720ssbsqvs_45sDkJD-KzZelbJ49H3y/view?usp=sharing)   |
+| DBMambaPose-XS | 243      | 1.4M     | 2.7G   |    [download](https://drive.google.com/file/d/1IbHVyMShM2pCNFQ-8xJb8CKAzarrx7Cy/view?usp=sharing)   |
+| DBMambaPose-S  | 243      | 4.2M     | 7.6G  |    [download](https://drive.google.com/file/d/1AMxrkWEZo2Rc2B9yhUK9HWk0wHuQkdfj/view?usp=sharing)   |
+| DBMambaPose-B  | 243      | 8.7M     | 16.7G  |    [download](https://drive.google.com/file/d/1z_CMaN10e-FIgb-UeqB7q2gqLQUAsHkO/view?usp=sharing)   |
+| DBMambaPose-L  | 243      | 12.2M    | 23.3G  |    [download](https://drive.google.com/file/d/1t720ssbsqvs_45sDkJD-KzZelbJ49H3y/view?usp=sharing)   |
 
 After downloading the weight from table above, you can evaluate Human3.6M models by:
 ```
